@@ -1,0 +1,36 @@
+/* + + + + + + + + + + + + + + + + + + + + + + + + *
+
+  File:     style.scss -> style.css
+  Desc:     This file is the master scss file that
+              imports all bootstrap scss files and
+              includes custom styling.
+  Note:     Compiles to ../pub/css/style.css
+
+ * + + + + + + + + + + + + + + + + + + + + + + + + */
+
+@import "bootstrap";
+/* @import "variables-custom"; goes inside _bootstrap.scss to overwrite
+the default values without directly changing them */
+
+
+//== HTML element overwrites
+//
+//##
+
+.active {
+  border: 1px solid black;
+  color: black;
+}
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+.navbar.center .navbar-inner .nav {
+    float: none;
+    display:inline-block;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0px;
+}
