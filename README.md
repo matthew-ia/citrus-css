@@ -1,5 +1,5 @@
 # citrus-css
-A slim(er) css framework with Sass.
+A slim CSS framework that uses Sass.
 
 Two versions:
 - Citrus No-pulp (default, barebones)
