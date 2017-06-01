@@ -2,12 +2,21 @@
 // --------------------------------------------------
 
 // Utilities
-@import "mixins/border-radius"
-@import "mixins/opacity";
+//@import "mixins/border-radius"
 @import "mixins/image";
 @import "mixins/responsive-visibility";
 @import "mixins/tab-focus";
 @import "mixins/vendor-prefixes";
+@import "mixins/text-overflow";
+@import "mixins/reset-filter";
+@import "mixins/opacity";
+@import "mixins/reset-text";
+
+
+// Components
+@import "mixins/nav-divider";
+@import "mixins/forms";
+@import "mixins/progress-bar";
 
 // Skins
 @import "mixins/gradients";
@@ -16,3 +25,6 @@
 @import "mixins/clearfix";
 @import "mixins/grid-framework";
 @import "mixins/grid";
+@import "mixins/nav-vertical-align";
+@import "mixins/center-block";
+
