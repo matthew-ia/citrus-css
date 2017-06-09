@@ -242,22 +242,6 @@ img {
   max-width: 100%;
   height: auto; }
 
-.img-rounded {
-  border-radius: 6px; }
-
-.img-thumbnail {
-  padding: 4px;
-  line-height: 1.42857;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  display: inline-block;
-  max-width: 100%;
-  height: auto; }
-
 .img-circle {
   border-radius: 50%; }
 
@@ -1044,15 +1028,6 @@ p {
     .lead {
       font-size: 24px; } }
 
-small,
-.small {
-  font-size: 87%; }
-
-mark,
-.mark {
-  background-color: #fcf8e3;
-  padding: .2em; }
-
 .text-left {
   text-align: left; }
 
@@ -1076,17 +1051,6 @@ mark,
 
 .text-capitalize {
   text-transform: capitalize; }
-
-.text-muted {
-  color: #777777; }
-
-.bg-primary {
-  color: #fff; }
-
-.page-header {
-  padding-bottom: 10px;
-  margin: 44px 0 22px;
-  border-bottom: 1px solid #eeeeee; }
 
 ul,
 ol {
@@ -1142,61 +1106,8 @@ dd {
   .dl-horizontal dd {
     margin-left: 180px; } }
 
-abbr[title],
-abbr[data-original-title] {
-  cursor: help;
-  border-bottom: 1px dotted #777777; }
-
 .initialism {
   font-size: 90%; }
-
-blockquote {
-  padding: 11px 22px;
-  margin: 0 0 22px;
-  font-size: 17.5px;
-  border-left: 5px solid #eeeeee; }
-  blockquote p:last-child,
-  blockquote ul:last-child,
-  blockquote ol:last-child {
-    margin-bottom: 0; }
-  blockquote footer,
-  blockquote small,
-  blockquote .small {
-    display: block;
-    font-size: 80%;
-    line-height: 1.42857;
-    color: #777777; }
-    blockquote footer:before,
-    blockquote small:before,
-    blockquote .small:before {
-      content: '\2014 \00A0'; }
-
-.blockquote-reverse,
-blockquote.pull-right {
-  padding-right: 15px;
-  padding-left: 0;
-  border-right: 5px solid #eeeeee;
-  border-left: 0;
-  text-align: right; }
-  .blockquote-reverse footer:before,
-  .blockquote-reverse small:before,
-  .blockquote-reverse .small:before,
-  blockquote.pull-right footer:before,
-  blockquote.pull-right small:before,
-  blockquote.pull-right .small:before {
-    content: ''; }
-  .blockquote-reverse footer:after,
-  .blockquote-reverse small:after,
-  .blockquote-reverse .small:after,
-  blockquote.pull-right footer:after,
-  blockquote.pull-right small:after,
-  blockquote.pull-right .small:after {
-    content: '\00A0 \2014'; }
-
-address {
-  margin-bottom: 22px;
-  font-style: normal;
-  line-height: 1.42857; }
 
 .embed-responsive {
   position: relative;

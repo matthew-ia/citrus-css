@@ -8,8 +8,6 @@ $bootstrap-sass-asset-helper: false !default;
 //
 //## Main colors, notification colors, and grays for use across Bootstrap.
 
-
-
 $primary-color:         #000    !default;
 $secondary-color:       #5e5e5e !default;
 $tertiary-color:        #a2a2a2 !default;
@@ -97,6 +95,8 @@ $padding-xs-horizontal:     5px !default;
 $line-height-large:         1.3333333 !default; // extra decimals for Win 8.1 Chrome
 $line-height-small:         1.5 !default;
 
+$border-radius-base: 4px;
+
 
 //== Media queries breakpoints
 //
@@ -172,48 +172,18 @@ $container-large-desktop:      (1140px + $grid-gutter-width) !default;
 $container-lg:                 $container-large-desktop !default;
 
 
-//== Thumbnails
-//
-//##
-
-//** Padding around the thumbnail image
-$thumbnail-padding:           4px !default;
-//** Thumbnail background color
-$thumbnail-bg:                $body-bg !default;
-//** Thumbnail border color
-$thumbnail-border:            #ddd !default;
-//** Thumbnail border radius
-$thumbnail-border-radius:     $border-radius-base !default;
-
-//** Custom text color for thumbnail captions
-$thumbnail-caption-color:     $text-color !default;
-//** Padding around the thumbnail caption
-$thumbnail-caption-padding:   9px !default;
-
-
 //== Type
 //
 //##
 
 //** Horizontal offset for forms and lists.
 $component-offset-horizontal: 180px !default;
-//** Text muted color
-$text-muted:                  $gray-light !default;
-//** Abbreviations and acronyms border color
-$abbr-border-color:           $gray-light !default;
-//** Headings small color
-$headings-small-color:        $gray-light !default;
-//** Blockquote small color
-$blockquote-small-color:      $gray-light !default;
-//** Blockquote font size
-$blockquote-font-size:        ($font-size-base * 1.25) !default;
-//** Blockquote border color
-$blockquote-border-color:     $gray-lighter !default;
-//** Page header border color
-$page-header-border-color:    $gray-lighter !default;
 //** Width of horizontal description list titles
 $dl-horizontal-offset:        $component-offset-horizontal !default;
 //** Point at which .dl-horizontal becomes horizontal
 $dl-horizontal-breakpoint:    $grid-float-breakpoint !default;
+
+//** Headings small color
+$headings-small-color:        $gray-light !default;
 //** Horizontal line color.
 $hr-border:                   $gray-lighter !default;
