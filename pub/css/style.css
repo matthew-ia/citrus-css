@@ -7,12 +7,6 @@
  * Based on Bootstrap 3.3.7
  * --------------------------------------------------
  */
-/*
- * Custom Variables
- * for your project if you don't want to explicitly edit variables.scss
- * --------------------------------------------------
- */
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900");
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -207,10 +201,10 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
   line-height: 1.42857;
-  color: #5f5f5f;
+  color: #000;
   background-color: #fff; }
 
 input,
@@ -222,10 +216,10 @@ textarea {
   line-height: inherit; }
 
 a {
-  color: #5f5f5f;
+  color: #3077fc;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #858585;
+    color: #034fdc;
     text-decoration: underline; }
   a:focus {
     outline: 5px auto -webkit-focus-ring-color;
@@ -246,8 +240,8 @@ img {
   border-radius: 50%; }
 
 hr {
-  margin-top: 22px;
-  margin-bottom: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eeeeee; }
 
@@ -945,7 +939,7 @@ hr {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: inherit;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.1;
   color: inherit; }
   h1 small,
@@ -969,8 +963,8 @@ h1, h2, h3, h4, h5, h6,
 h1, .h1,
 h2, .h2,
 h3, .h3 {
-  margin-top: 22px;
-  margin-bottom: 11px; }
+  margin-top: 20px;
+  margin-bottom: 10px; }
   h1 small,
   h1 .small, .h1 small,
   .h1 .small,
@@ -985,8 +979,8 @@ h3, .h3 {
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  margin-top: 11px;
-  margin-bottom: 11px; }
+  margin-top: 10px;
+  margin-bottom: 10px; }
   h4 small,
   h4 .small, .h4 small,
   .h4 .small,
@@ -999,34 +993,34 @@ h6, .h6 {
     font-size: 75%; }
 
 h1, .h1 {
-  font-size: 41px; }
+  font-size: 36px; }
 
 h2, .h2 {
-  font-size: 34px; }
+  font-size: 30px; }
 
 h3, .h3 {
-  font-size: 28px; }
+  font-size: 24px; }
 
 h4, .h4 {
-  font-size: 20px; }
+  font-size: 18px; }
 
 h5, .h5 {
-  font-size: 16px; }
-
-h6, .h6 {
   font-size: 14px; }
 
+h6, .h6 {
+  font-size: 12px; }
+
 p {
-  margin: 0 0 11px; }
+  margin: 0 0 10px; }
 
 .lead {
-  margin-bottom: 22px;
-  font-size: 18px;
+  margin-bottom: 20px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.4; }
   @media (min-width: 768px) {
     .lead {
-      font-size: 24px; } }
+      font-size: 21px; } }
 
 .text-left {
   text-align: left; }
@@ -1055,7 +1049,7 @@ p {
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 11px; }
+  margin-bottom: 10px; }
   ul ul,
   ul ol,
   ol ul,
@@ -1077,7 +1071,7 @@ ol {
 
 dl {
   margin-top: 0;
-  margin-bottom: 22px; }
+  margin-bottom: 20px; }
 
 dt,
 dd {
