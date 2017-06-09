@@ -8,6 +8,7 @@
 @import "citrus/variables";
 
 // Custom variables (uncomment next line)
+/* If you want to use your custom sass variables, uncomment the following import */
 //@import "custom-variables";
 
 //Core mixins
@@ -29,9 +30,6 @@
 // Components
 
 @import "citrus/responsive-embed";
-
-
-// Components w/ JavaScript
 
 
 // Utility classes

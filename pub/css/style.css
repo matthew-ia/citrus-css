@@ -7,6 +7,7 @@
  * Based on Bootstrap 3.3.7
  * --------------------------------------------------
  */
+/* If you want to use your custom sass variables, uncomment the following import */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
