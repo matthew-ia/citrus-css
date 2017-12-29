@@ -32,3 +32,8 @@ Two versions:
 **Backburner:**
 
 - Add features...
+
+
+**Notes**
+
+- `.keep` files are just there to add/commit/push an empty directory. You can delete `.keep` any time you want!
