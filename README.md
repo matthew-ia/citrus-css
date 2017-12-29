@@ -7,6 +7,12 @@ Two versions:
 
 *Based on Bootstrap 3.3.7*
 
+
+
+**Notes**
+
+- `.keep` files are just there to add/commit/push an empty directory. You can delete `.keep` any time you want!
+
 ---
 
 ## // TODO:
@@ -14,26 +20,6 @@ Two versions:
 ### In Queue:
 
 
-- Unify sass files where applicable
+- Accessibility mixins and variables
+- Designer-oriented features (?)
 
-
-### Completed:
-
-- ~~initial Bootstrap stripdown~~
-- ~~rename directories~~
-- ~~reorganize sass & mixins~~
-- ~~New Sass variables file~~
-- ~~remove Roboto font import~~
-
-
-
----
-
-**Backburner:**
-
-- Add features...
-
-
-**Notes**
-
-- `.keep` files are just there to add/commit/push an empty directory. You can delete `.keep` any time you want!
