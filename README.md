@@ -13,15 +13,17 @@ Two versions:
 
 ### In Queue:
 
-- rename directories
-- reorganize sass & mixins
+
 - Unify sass files where applicable
-- New Sass variables file
-- remove Roboto font import
+
 
 ### Completed:
 
-- initial Bootstrap stripdown
+- ~~initial Bootstrap stripdown~~
+- ~~rename directories~~
+- ~~reorganize sass & mixins~~
+- ~~New Sass variables file~~
+- ~~remove Roboto font import~~
 
 
 
@@ -30,3 +32,8 @@ Two versions:
 **Backburner:**
 
 - Add features...
+
+
+**Notes**
+
+- `.keep` files are just there to add/commit/push an empty directory. You can delete `.keep` any time you want!
