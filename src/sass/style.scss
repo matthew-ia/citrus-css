@@ -4,11 +4,10 @@
  */
 
 @import "citrus";
-/* @import "variables-custom"; goes inside _citrus.scss to overwrite
-the default values without directly changing them */
+/* uncomment 'custom-variables' import in citrus.scss
+if you want to use your custom sass variables */
 
 
 //== Your custom classes and overwrites can go here
 //
 //##
-
