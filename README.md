@@ -22,4 +22,5 @@ Two versions:
 
 - Accessibility mixins and variables
 - Designer-oriented features (?)
+- add note about custom variables (in `_citrus.scss`)
 
